@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+mainfunc-Class: mainfunc
+Class-Path: mainfunc
+
