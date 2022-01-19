@@ -43,8 +43,7 @@ class mainstart {
         PrefixreadFromFile();
         // intialisirt und liest Datein aus
         try {
-            //JARBOR ID ODMxMTczNTc5MDU1NDMxNzIw.YHRYtw.-Y6daau494XuFSZ_rlM90KW7md8
-            //test ID ODEyOTYyODM4MTMzODY2NTM4.YDIYpA.yNhk54nBcVJSAPMeOgfBO57lXn4
+
             JDA jda = JDABuilder.create(persConfig.getconfig("token"), GUILD_MESSAGES, GUILD_VOICE_STATES, DIRECT_MESSAGES)
                     .disableCache(CacheFlag.ACTIVITY, CacheFlag.EMOTE, CacheFlag.CLIENT_STATUS)
                     .addEventListeners(new mainfunc())
